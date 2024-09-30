@@ -12,7 +12,7 @@ class ChatManager {
 
     chatRepository.saveReply(
       {
-        content: waifuCard.intialReply,
+        content: waifuCard.initialReply,
         sender: waifuCard.name,
         date: new Date().toISOString(),
       },

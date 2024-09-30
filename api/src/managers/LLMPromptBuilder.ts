@@ -49,8 +49,11 @@ class LLMPromptBuilder {
 
   private resolvePlaceholders(prompts: string, waifuCard: IWaifuCard): string {
     return prompts
+      .replaceAll('{{card_description}}', waifuCard.description)
+      .replaceAll('{{background}}', waifuCard.background ?? '')
+      .replaceAll('{{context}}', waifuCard.context ?? '')
+      .replaceAll('{{previous_chat}}', waifuCard.chatExample ?? '')
       .replaceAll('{{waifu}}', waifuCard.name)
-      .replaceAll('{{card_description}}', waifuCard.decription);
   }
 }
 

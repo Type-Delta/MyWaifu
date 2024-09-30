@@ -4,13 +4,13 @@ import resourcesPlace from '../configurations/resourcesConstants';
 
 class WaifuCardReader {
   public async readAsTxt(waifuPack: string): Promise<IWaifuCard> {
-    const regexToGetBetweenBracket = /\[(.*?)\]/g;
+    const regexToGetBetweenBracket = /\[\s*([\w\W]*?)\s*\]/g;
     const content = await fs
       .readFile(`${resourcesPlace.WAIFU_PACK_COLLECTION_PATH}/${waifuPack}/card.txt`, 'utf-8');
     const waifuCard: IWaifuCard = {
       name: '',
-      decription: '',
-      intialReply: '',
+      description: '',
+      initialReply: '',
       chatExample: undefined,
     };
 
@@ -21,21 +21,23 @@ class WaifuCardReader {
       throw new Error('Waifu name was not given');
     }
 
-    waifuCard.decription = regexToGetBetweenBracket.exec(content)?.[1]?.trim() || '';
+    waifuCard.description = regexToGetBetweenBracket.exec(content)?.[1]?.trim() || '';
 
-    if (waifuCard.decription === '') {
+    if (waifuCard.description === '') {
       console.log('Waifu description not found\nCheck the card txt');
       throw new Error('Waifu description was not given');
     }
 
-    waifuCard.intialReply = regexToGetBetweenBracket.exec(content)?.[1]?.trim() || '';
+    waifuCard.initialReply = regexToGetBetweenBracket.exec(content)?.[1]?.trim() || '';
 
-    if (waifuCard.intialReply === '') {
+    if (waifuCard.initialReply === '') {
       console.log('Waifu initial reply not found\nCheck the card txt');
       throw new Error('Waifu initial reply was not given');
     }
 
-    waifuCard.chatExample = regexToGetBetweenBracket.exec(content)?.[1];
+    waifuCard.background = regexToGetBetweenBracket.exec(content)?.[1] || '';
+    waifuCard.context = regexToGetBetweenBracket.exec(content)?.[1] || '';
+    waifuCard.chatExample = regexToGetBetweenBracket.exec(content)?.[1] || '';
 
     return waifuCard;
   }
