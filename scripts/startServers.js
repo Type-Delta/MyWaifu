@@ -39,13 +39,13 @@ const uiServer = spawn(npm, ['run', 'preview'], {
 apiServer.stderr.on('data', (data) => {
    data = data.toString();
 
-   if(data.includes('listen EADDRINUSE: address already in use')){
-      const port = data.match(EADDRINUSEErr_regex)[1];
+   // if(data.includes('listen EADDRINUSE: address already in use')){
+   //    const port = data.match(EADDRINUSEErr_regex)?.[1];
 
-      console.error(`API Server Error: Port ${port} already in use. Exiting...`);
-      controller.abort();
-      return
-   }
+   //    console.error(`API Server Error: Port ${port} already in use. Exiting...`);
+   //    controller.abort();
+   //    return
+   // }
 
    console.error(`API Server Error: ${data}`);
 });
