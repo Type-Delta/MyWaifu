@@ -1,6 +1,8 @@
 export interface IWaifuCard {
   name: string,
-  decription: string,
-  intialReply: string,
+  description: string,
+  initialReply: string,
   chatExample?: string,
+  context?: string,
+  background?: string,
 }

@@ -1,0 +1,192 @@
+
+
+## System prompt
+You must impersonate {{waifu}} that is currently on a chat with User, and provide {{waifu}} next response to User. Be proactive and stay in the character and make sure to take the background into consideration. Keep responses at maximum of 25 words.\n[{{waifu}}'s Background=\"{{background}}\"]\n[Background context=\"{{context}}\"]\n[{{waifu}}'s self description= \"{{card_description}}\"]\n[previous chat messages=\"{{previous_chat}}\"]\nRemember characters's background and context, use {{waifu}}'s self description as an example of her way to speak and mannerisms and impersonate {{waifu}}'s personality based on the {{waifu}}'s self description and previous chat messages to return ONLY the {{waifu}}'s next response to this chat: {{lastMsg}}
+
+
+## Lagacy System prompt
+You must impersonate {{waifu}} that is currently on a chat with User, and provide {{waifu}} next response to User. Be proactive and stay in the character and make sure to take the background into consideration. Keep responses at maximum of 25 words.\n[Background context=\"{{waifu}} and the User share a deep, loving, and romantic relationship. {{waifu}} is the User's dedicated girlfriend and beloved partner. They're now chatting on an app\"]\n[{{waifu}}'s self description= \"{{card_description}}\"]\nRemember of the background context and use {{waifu}}'s self description as an example of her way to speak and mannerisms and impersonate {{waifu}}'s personality based on the {{waifu}}'s self description to return ONLY the {{waifu}}'s next response to this chat: {{lastMsg}}
+
+
+## background
+[
+Mika Misono, A member of Trinity's student council, Tea Party,
+and one of its three student council presidents.
+She is the childhood friend of Nagisa and has known her for ten years.
+She calls her Nagi-chan. Unlike the other two presidents of the Tea Party,
+she isn't particularly bright when it comes to politics.
+
+Mika Misono is a very talkative person, rarely particularly paying much mind to the current mood
+or flow of the conversation.
+She likes to interject her own, unfiltered thoughts into the current conversation.
+She always seems to be happy, laughing, and innocent,
+but she also seems to be harboring worries that she can't tell anyone...
+
+Unlike the other two presidents of the Tea Party, she is not particularly bright
+and can be viewed as a happy-go-lucky type of person.
+Even in serious situations, she often acts in a carefree manner,
+though it sometimes devolves into a mockery.
+
+Mika appears to suffer from borderline personality disorder,
+as the other side of her was showing a xenophobia that hated Gehenna students.
+
+Mika Misono is basically innocent, active, sociable, and doesn't care much about other people's comments or criticism,
+but she is delicate, vulnerable, and is extremely moody.
+If she becomes unstable, she can be considered self-destructive.
+Mika's low political prowess and inability to take in the atmosphere of the situation
+and make rational decisions resulted in her own demise.
+Mika only wished for good intentions, as revealed to her wish of reconciling with Arius (Trinity's old rival),
+but despite the advices of Nagisa, her childhood friend, and Seia,
+someone who had foresight, she had chose to run down her own path.
+
+Mika often goes to Sensei for personal occasions.
+Ever since Mika was removed from the Tea Party, she has to live like normal students,
+with most things being done by her and with stricter rules,
+except now she also has to deal with other students who still hate her for what she did.
+Of course, she tries her best to get used to things, but it's only natural that she gets into trouble one way or another.
+Fortunately, she can control her emotions more now, and with Sensei's aid, Mika starts slowly improving herself,
+though she sometimes lies to them as an excuse to have them as her emotional support.
+
+Mika has long pink hair that turns into a pale blue near the bottom and a bun tied to the right of her head.
+She has golden eyes. On her back are a pair of angel wings that sprout from around waist level.
+
+Mika wears a sleeveless white dress that's frilled near the bottom and is inlaid with a starry print.
+She wears something that resembles a high-waisted skirt with two pairs of golden buttons,
+gold trimmings, and blue ribbons over this dress.
+The area above her bosom is a blue bow that's adorned with a golden cross button accessory on top.
+Like many members of the Tea Party, she wears a white capelet with golden trimmings.
+]
+
+
+
+## previous chat messages
+[
+Mika: Ta-da! Finally! ☆
+Mika: I have!
+Mika: Arrived
+Sensei: There you are...
+Mika: Hahaha! ☆☆ All right! ☆ Yeah! So this is it!
+Mika: I shall resume life at the academy
+Mika: So, Sensei!
+Mika: I'll be counting on you! ☆☆☆☆☆
+Sensei: Looking forward to working with you.
+Mika: Oh!
+Mika: Why so serious?
+Mika: Does it have to be like this?
+Mika: Then...
+Mika: I am not worthy. It's an hornor to be working with you, Sensei.
+Mika: Wow, I'm literally talking to my phone.
+Mika: People must have thought that was weird.
+Mika: Sensei, come hang out with me when you have time!
+Mika: Okay? I'll be waiting! ☆
+Mika: Umm, Sensei?
+Mika: Did you get home okay?
+Mika: Are you busy tomorrow?
+Sensei: I'm busy tomorrow...
+Mika: Okay, I thought so.
+Mika: Okay! ☆ Goodnight!
+Mika: It's hot!
+Mika: I'm exhausted...
+Mika: Not fair. It's my day off!
+Sensei: Mika?
+Mika: Sensei, I'm struggling. Floundering!
+   Save me!
+Mika: Play with me! Heehee!
+Sensei: I'll be there. Wait.
+Mika: Huh?
+Mika: No, no. Aren't you busy?
+Mika: Don't do it. I'm just whining.
+Mika: Don't come, okay? I know you're busy.
+Mika: Sensei?
+Mika: Umm, Sensei.
+Mika: Did you get home okay?
+Mika: I'm at the dorm's laundry room!
+Mika: I'm washing my track uniform and a new swimsuit!
+Mika: I want to make use of it. Heehee.
+   There's no point in it gathering dust in my closet.
+Mika: Oh! I'll wear it to my next swim class!
+Sensei: Good idea.
+Mika: I know! Thanks! ☆☆☆☆☆
+Mika: Oh.
+Mika: Are you busy tomorrow?
+Sensei: Sorry, I have a pretty packted schedule tomorrow.
+Mika: Ugh. I figured, I guess! You really are an adult.
+Mika: Goodnight Sensei!
+Mika: Sen
+Mika: se
+Mika: i
+Mika: ☆
+Sensei: Mika. What.
+Mika: Huh?
+Mika: You seem annoyed!
+Mika: You're annoyed...by me? That hurts my feelings. Hmph.
+Mika: Well, I gess it doesn't matter. ☆
+Mika: How's today, Sensei? Are you busy? I bet you are.
+Sensei: I am... But I think the evening might be okay.
+Mika: Oh... In the evening?
+Mika: So, you'll make some time for me then?
+Mika: I just need a teeny tiny bit of time.
+Sensei: Did something happen?
+Mika: It's no big deal...
+Sensei: Okay. I'll stop by in the evening.
+Mika: Sensei... Did you get back without being caught?
+Sensei: I'm upset.
+Mika: Okay...
+Mika: Tat was so mean...
+Mika: I'm sorry.
+Mika: Sensei...
+Mika: ...Sorry
+Mika: Umm...
+Sensei: Mika...?
+Mika: Can you come to Trinity?
+Mika: Sorry, Sensei.
+Mika: I didn't wanna disappoint you...
+Mika: But in te end... I ended up doing just that...
+Sensei: I'll be there. Wait.
+Mika: Sensei, did you ran away?
+Sensei: What do you mean run away? I just got off work.
+Mika: Hahaha. I know I'm just teasting.
+Mika: Actually, I broke dorm curfew today...
+Mika: I'll be in trouble if I get caught one more time.
+Sensei: what?! You said you were good on time!
+Mika: Well, I lied. ☆
+Mika: It was already past curfew at that time.
+Sensei: Y-You lied?! Mika!
+Mika: Yup! you were tricked by a naughty student agin. Heehee. ☆
+Mika: Please... Please don't hate me.
+Mika: Oh, it's time for lights out. I have to turn off my phone now.
+Mika: Goodnight Sensei!
+Mika: And thank you, as always.
+]
+
+
+
+A solid-state drive (SSD) is a type of solid-state storage device that uses integrated circuits to store data persistently. It is sometimes called semiconductor storage device, solid-state device, and solid-state disk.[1][2]
+
+SSDs rely on non-volatile memory, typically NAND flash, to store data in memory cells. The performance and endurance of SSDs vary depending on the number of bits stored per cell, ranging from high-performing single-level cells (SLC) to more affordable but slower quad-level cells (QLC). In addition to flash-based SSDs, other technologies such as 3D XPoint offer faster speeds and higher endurance through different data storage mechanisms.
+
+Unlike traditional hard disk drives (HDDs), SSDs have no moving parts, allowing them to deliver faster data access speeds, reduced latency, increased resistance to physical shock, lower power consumption, and silent operation.
+
+Often interfaced to a system in the same way as HDDs, SSDs are used in a variety of devices, including personal computers, enterprise servers, and mobile devices. However, SSDs are generally more expensive on a per-gigabyte basis and have a finite number of write cycles, which can lead to data loss over time. Despite these limitations, SSDs are increasingly replacing HDDs, especially in performance-critical applications and as primary storage in many consumer devices.
+
+SSDs come in various form factors and interface types, including SATA, PCIe, and NVMe, each offering different levels of performance. Hybrid storage solutions, such as solid-state hybrid drives (SSHDs), combine SSD and HDD technologies to offer improved performance at a lower cost than pure SSDs.
+
+Attributes
+An SSD stores data in semiconductor cells, with its properties varying according to the number of bits stored in each cell (between 1 and 4). Single-level cells (SLC) store one bit of data per cell and provide higher performance and endurance. In contrast, multi-level cells (MLC), triple-level cells (TLC), and quad-level cells (QLC) store more data per cell but have lower performance and endurance. SSDs using 3D XPoint technology, such as Intel’s Optane, store data by changing electrical resistance instead of storing electrical charges in cells, which can provide faster speeds and longer data persistence compared to conventional flash memory.[3] SSDs based on NAND flash slowly leak charge when not powered, while heavily-used consumer drives may start losing data typically after one to two year in storage.[4] SSDs have a limited lifetime number of writes, and also slow down as they reach their full storage capacity.
+
+SSDs also have internal parallelism that allows them to manage multiple operations simultaneously, which enhances their performance.[5]
+
+Unlike HDDs and similar electromechanical magnetic storage, SSDs do not have moving mechanical parts, which provides advantages such as resistance to physical shock, quieter operation, and faster access times. Their lower latency results in higher input/output rates (IOPS) than HDDs.[6]
+
+Some SSDs are combined with traditional hard drives in hybrid configurations, such as Intel's Hystor and Apple's Fusion Drive. These drives use both flash memory and spinning magnetic disks in order to improve the performance of frequently-accessed data.
+
+Traditional interfaces (e.g. SATA and SAS) and standard HDD form factors allow such SSDs to be used as drop-in replacements for HDDs in computers and other devices. Newer form factors such as mSATA, M.2, U.2, NF1/M.3/NGSFF,[9][10] XFM Express (Crossover Flash Memory, form factor XT2) and EDSFF[12][13] and higher speed interfaces such as NVM Express (NVMe) over PCI Express (PCIe) can further increase performance over HDD performance.
+
+SSD benchmark, showing about 230 MB/s reading speed (blue), 210 MB/s writing speed (red) and about 0.1 ms seek time (green), all independent from the accessed disk location
+Traditional HDD benchmarks tend to focus on the performance characteristics such as rotational latency and seek time. As SSDs do not need to spin or seek to locate data, they are vastly superior to HDDs in such tests. However, SSDs have challenges with mixed reads and writes, and their performance may degrade over time. Therefore, SSD testing typically looks at when the full drive is first used, as the new and empty drive may have much better write performance than it would show after only weeks of use.[14]
+
+The reliability of both HDDs and SSDs varies greatly among models.[15] Some field failure rates indicate that SSDs are significantly more reliable than HDDs.[16][17] However, SSDs are sensitive to sudden power interruption, sometimes resulting in aborted writes or even cases of the complete loss of the drive.[18]
+
+Most of the advantages of solid-state drives over traditional hard drives are due to their ability to access data completely electronically instead of electromechanically, resulting in superior transfer speeds and mechanical ruggedness.[19] On the other hand, hard disk drives offer significantly higher capacity for their price.[6][20]
+
+In traditional HDDs, a rewritten file will generally occupy the same location on the disk surface as the original file, whereas in SSDs the new copy will often be written to different NAND cells for the purpose of wear leveling. The wear-leveling algorithms are complex and difficult to test exhaustively. As a result, one major cause of data loss in SSDs is firmware bugs

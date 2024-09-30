@@ -1,4 +1,4 @@
-import LmStudioRepository from '../repositories/LmStudioRepository';
+import LmStudioRepository from '../repositories/lmStudioRepository';
 
 class MainAIManager {
   public async generate(prompt: string): Promise<string> {
